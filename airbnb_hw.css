@@ -1,0 +1,83 @@
+.tile-heading {
+  font-size: 14px;
+  line-height: 1.43;
+  font-family: "helvetica",sans-serif;
+  letter-spacing: normal;
+  color: rgb(72, 72, 72);
+  margin: 0px;
+}
+
+/* Tile1 */
+
+.tile-1 {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+  font-family: "helvetica",sans-serif;
+  margin: 0px;
+  line-height: 1;
+}
+
+/* Tile-1 img */
+
+.tile-1 img {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 2px;
+}
+
+/* Main Line */
+
+.tile-1 .tile-main-1{
+  color: rgb(118, 118, 118);
+  text-transform: uppercase;
+  font-size: 12px;
+  box-sizing: border-box;
+  font-weight: 800;
+  margin: 0px;
+}
+
+/* Description Line */
+
+.tile-1 .tile-desc-1 {
+  color: rgb(72, 72, 72)
+  font-size: 17px;
+  letter-spacing: 0.2px;
+  margin: 0px;
+}
+
+/* Tile-2 */
+
+.tile-2 {
+  width: 32.33%;
+  display: inline-block;
+  vertical-align: top;
+  font-family: "helvetica",sans-serif;
+  margin: 0px;
+  line-height: 1;
+}
+
+/* Tile-2 img */
+
+.tile-2 img {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+/* Main Line */
+
+.tile-2 .tile-main-2 {
+  color: rgb(145, 70, 105);
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+/* Description line */
+
+.tile-2 .tile-desc-2 {
+  color: rgb(72, 72, 72);
+  font-size: 14px;
+  line-height: 18px;
+}

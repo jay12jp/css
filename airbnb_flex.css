@@ -1,0 +1,79 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+.page {
+  width: 100%
+  padding 0 150px;
+}
+
+.title{
+  padding: 10px;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  color: rgb(72, 72, 72);
+}
+
+/* Using flex */
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Section for Tile-1 */
+
+.section {
+  width: 100%;
+}
+
+.half-tile {
+  width: 50%;
+  padding: 10px;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+
+}
+
+.half-tile img {
+  width: 100%
+}
+
+/* @media only screen and (max-width: 600px) {
+  .page {
+    padding: 0px 0px;
+  } */
+
+/* Section for Tile-2 */
+
+.tile-2 {
+  width : 33.33%;
+  padding: 10px;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+}
+
+.tile-2 background-image {
+  width: 100%;
+}
+
+.tile-2 p:nth-child(1) {
+  color: rgb(145, 70, 105);
+}
+
+.tile-2:first-child .background-image {
+  background-image: url("/Users/Jay/Desktop/Jay/Web Development/Github/week-two-class-2-airbnb_flex/images/home1.jpg");
+}
+
+.tile-2:nth-child(2) .background-image {
+  background-image: url("/Users/Jay/Desktop/Jay/Web Development/Github/week-two-class-2-airbnb_flex/images/home2.jpg");
+}
+
+.tile-2:last-child .background-image {
+  background-image: url("/Users/Jay/Desktop/Jay/Web Development/Github/week-two-class-2-airbnb_flex/images/home3.jpg");
+}
